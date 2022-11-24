@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Games</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.6.1.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+   
+</head>
+
+<header>
+    <a href="index.html">
+        <img src="logo.jpg" alt="" class="logo">
+    </a>
+    <nav>
+       
+        <div class="menuMobile"> <i class ="fa-solid fa-bars"></i></div>
+        <ul class = "menu">
+            <li>
+                <a href="pesquisa.html">
+                   <input type="button" id="botao-pagina-pesquisa" value="Pesquisar   🔎"> 
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <h1>Games</h1>
+    <div class="container-fluid">
+        <div class="row" id="divListaGames">
+            <button id="maisDetalhesDestaques"
+                        class="truncate-title"
+                        onclick="carregaMaisDetalhes()">
+                            Mais detalhes ...
+                        </button>
+        </div>
+    </div>
+
+    <h1>Lojas</h1>
+    <div class="container-fluid">
+        <div class="row" id="divListaLojas">
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row" id="sobre">
+            <h1>Heitor Meinicke Ribeiro - 
+                Sistema de Informação - 
+                Matrícula: 605240
+            </h1>
+        </div>
+    </div>
+
+    <footer>
+        <p class="footertext">© 2022 Copyright: Desenvolvimento de Interfaces Web - 
+             <b> ICEI PUC MINAS </b>
+        </p>
+    </footer>
+    <script src="app.js"></script>
+    <script src="det_plat.js"></script>  
+    <script src="https://kit.fontawesome.com/c4805e758d.js" crossorigin="anonymous"></script>
+<body>
+
+<html>               
